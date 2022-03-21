@@ -1,191 +1,191 @@
-void main() {
-  // //Working with variables
-  // const name = "Lina";
-//   // String firstname = 'Kofi';
-//   // //reassigning a value to name variables
-//   // name = "Asante";
-//   // print(name);
+// void main() {
+//   // //Working with variables
+//   // const name = "Lina";
+// //   // String firstname = 'Kofi';
+// //   // //reassigning a value to name variables
+// //   // name = "Asante";
+// //   // print(name);
 
-//   // final age = 23;
-//   // age = 70;
-//   // print(age);
+// //   // final age = 23;
+// //   // age = 70;
+// //   // print(age);
 
-//   // int numberOfPeople = 60;
-//   // numberOfPeople = 100;
-//   // int sum = numberOfPeople + 50;
-//   // print(sum);
+// //   // int numberOfPeople = 60;
+// //   // numberOfPeople = 100;
+// //   // int sum = numberOfPeople + 50;
+// //   // print(sum);
 
-//   // //Working with Strings
-//   // String myFirstName = "Asante";
-//   // String myLastName = "Usman";
-//   // String myFullName = myFirstName + " " + myLastName;
-//   // print(myFullName);
+// //   // //Working with Strings
+// //   // String myFirstName = "Asante";
+// //   // String myLastName = "Usman";
+// //   // String myFullName = myFirstName + " " + myLastName;
+// //   // print(myFullName);
 
-//   // int age = 5;
+// //   // int age = 5;
 
-//   // int sum = 5 + 10;
+// //   // int sum = 5 + 10;
 
-//   // double multiplication = 3.90 * 2.5;
+// //   // double multiplication = 3.90 * 2.5;
 
-//   // double division = (10 / 2);
+// //   // double division = (10 / 2);
 
-//   // int modulus = 10 % 3;
-// //If statements
-//   int age = 20;
-//   if (age >= 18) {
-//     print('You are an adult');
+// //   // int modulus = 10 % 3;
+// // //If statements
+// //   int age = 20;
+// //   if (age >= 18) {
+// //     print('You are an adult');
+// //   }
+
+// //   //if else statements
+// //   int age2 = 20;
+// //   if (age2 >= 18) {
+// //     print('You are an adult');
+// //   } else {
+// //     print('You are not an adult');
+// //   }
+
+// //   //Nested if else statements
+// //   int marks = 90;
+// //   if (marks < 40) {
+// //     print('Chairman, you have failed');
+// //   } else if (marks <= 50) {
+// //     print('Charlie, you nearly failed');
+// //   } else if (marks <= 75) {
+// //     print('You are doing well');
+// //   } else {
+// //     print('Chairman, you do all');
+// //   }
+// // // Switch statements
+// //   int marks2 = 90;
+// //   switch (marks2) {
+// //     case 90:
+// //       print('You are an excellent student');
+// //       break;
+// //     case 80:
+// //       print('You are a good student');
+// //       break;
+// //     case 70:
+// //       print('You are a student');
+// //       break;
+// //     case 60:
+// //       print('You are a student');
+// //       break;
+// //     default:
+// //       print('You are a student');
+// //   }
+
+// // //Functions
+// //   void sayHello() {
+// //     print('Hello, Mr Man');
+// //   }
+
+// //   sayHello();
+
+// //   int sum(firstNumber, secondNumber, thirdNumber) {
+// //     return firstNumber + secondNumber + thirdNumber;
+// //   }
+
+// //   print(sum(6, 8, 9));
+
+//   // void sayHelloTo(String name) {
+//   //   print('Hello $name');
+//   // }
+
+//   // sayHelloTo('Lina');
+
+//   // void sayHelloTo(String name, [int age]) {
+//   //   print('Hello $name');
+//   //   if (age != null) {
+//   //     print('You are $age years old');
+//   //   }
+//   // }
+
+//   // sayHelloTo('Lina', 23);
+
+//   // void sayHelloTo(String name, [int age = 18]) {
+//   //   print('Hello $name');
+//   //   if (age != null) {
+//   //     print('You are $age years old');
+//   //   }
+//   // }
+
+//   // sayHelloTo('Lina', 23);
+
+//   // void sayHelloTo(String name, [int age = 18]) {
+//   //   print('Hello $name');
+//   //   if (age != null) {
+//   //     print('You are $age years old');
+//   //   }
+//   // }
+
+//   // sayHelloTo('Lina');
+
+//   // void sayHelloTo(String name, [int age = 18]) {
+//   //   print('Hello $name');
+//   //   if (age != null) {
+//   //     print('You are $age years old');
+//   //   }
+//   // }
+
+//   // sayHelloTo('Lina', 23);
+
+//   // void sayHelloTo(String name, [int age = 18]) {
+//   //   print('Hello $name');
+//   //   if (age != null) {
+//   //     print('You are $age years old');
+//   //   }
+//   // }
+
+//   // sayHelloTo('Lina');
+
+//   // void sayHelloTo(String name, [int age = 18]) {
+//   //   print('Hello $name');
+//   //   if (age != null) {
+//   //     print('You are $age years old');
+//   //   }
+//   // }
+
+//   // sayHelloTo('Lina', 23);
+
+//   // void sayHello
+
+//   //LOOPS
+
+//   //while loop
+
+//   // int age = 20;
+//   // while (age < 30) {
+//   //   print('Hello, Ghana');
+//   //   age++;
+//   //   age = age + 1;
+//   //   age += 1;
+
+//   // }
+
+// //do-while loop
+//   // int age = 20;
+//   // do {
+//   //   print('Hello,Ghana');
+//   //   age++;
+//   // } while (age < 25);
+
+// //for loops
+
+//   // int age = 20;
+//   // for (age; age < 30; age += 1) {
+//   //   print('Hello, Ghana');
+//   // }
+
+//   // List fruits = ['Orange', 'Banana', 'Grapes', 'Water Melon', 'Apple'];
+//   // for (int i = 0; i < fruits.length; i++) {
+//   //   print(fruits[i]);
+//   // }
+// //For in loops
+//   List numbers = [1, 2, 3, 4, 5, 6, 7];
+//   for (int number in numbers) {
+//     print(number);
 //   }
-
-//   //if else statements
-//   int age2 = 20;
-//   if (age2 >= 18) {
-//     print('You are an adult');
-//   } else {
-//     print('You are not an adult');
-//   }
-
-//   //Nested if else statements
-//   int marks = 90;
-//   if (marks < 40) {
-//     print('Chairman, you have failed');
-//   } else if (marks <= 50) {
-//     print('Charlie, you nearly failed');
-//   } else if (marks <= 75) {
-//     print('You are doing well');
-//   } else {
-//     print('Chairman, you do all');
-//   }
-// // Switch statements
-//   int marks2 = 90;
-//   switch (marks2) {
-//     case 90:
-//       print('You are an excellent student');
-//       break;
-//     case 80:
-//       print('You are a good student');
-//       break;
-//     case 70:
-//       print('You are a student');
-//       break;
-//     case 60:
-//       print('You are a student');
-//       break;
-//     default:
-//       print('You are a student');
-//   }
-
-// //Functions
-//   void sayHello() {
-//     print('Hello, Mr Man');
-//   }
-
-//   sayHello();
-
-//   int sum(firstNumber, secondNumber, thirdNumber) {
-//     return firstNumber + secondNumber + thirdNumber;
-//   }
-
-//   print(sum(6, 8, 9));
-
-  // void sayHelloTo(String name) {
-  //   print('Hello $name');
-  // }
-
-  // sayHelloTo('Lina');
-
-  // void sayHelloTo(String name, [int age]) {
-  //   print('Hello $name');
-  //   if (age != null) {
-  //     print('You are $age years old');
-  //   }
-  // }
-
-  // sayHelloTo('Lina', 23);
-
-  // void sayHelloTo(String name, [int age = 18]) {
-  //   print('Hello $name');
-  //   if (age != null) {
-  //     print('You are $age years old');
-  //   }
-  // }
-
-  // sayHelloTo('Lina', 23);
-
-  // void sayHelloTo(String name, [int age = 18]) {
-  //   print('Hello $name');
-  //   if (age != null) {
-  //     print('You are $age years old');
-  //   }
-  // }
-
-  // sayHelloTo('Lina');
-
-  // void sayHelloTo(String name, [int age = 18]) {
-  //   print('Hello $name');
-  //   if (age != null) {
-  //     print('You are $age years old');
-  //   }
-  // }
-
-  // sayHelloTo('Lina', 23);
-
-  // void sayHelloTo(String name, [int age = 18]) {
-  //   print('Hello $name');
-  //   if (age != null) {
-  //     print('You are $age years old');
-  //   }
-  // }
-
-  // sayHelloTo('Lina');
-
-  // void sayHelloTo(String name, [int age = 18]) {
-  //   print('Hello $name');
-  //   if (age != null) {
-  //     print('You are $age years old');
-  //   }
-  // }
-
-  // sayHelloTo('Lina', 23);
-
-  // void sayHello
-
-  //LOOPS
-
-  //while loop
-
-  // int age = 20;
-  // while (age < 30) {
-  //   print('Hello, Ghana');
-  //   age++;
-  //   age = age + 1;
-  //   age += 1;
-
-  // }
-
-//do-while loop
-  // int age = 20;
-  // do {
-  //   print('Hello,Ghana');
-  //   age++;
-  // } while (age < 25);
-
-//for loops
-
-  // int age = 20;
-  // for (age; age < 30; age += 1) {
-  //   print('Hello, Ghana');
-  // }
-
-  // List fruits = ['Orange', 'Banana', 'Grapes', 'Water Melon', 'Apple'];
-  // for (int i = 0; i < fruits.length; i++) {
-  //   print(fruits[i]);
-  // }
-//For in loops
-  List numbers = [1, 2, 3, 4, 5, 6, 7];
-  for (int number in numbers) {
-    print(number);
-  }
-}
+// }
 //Modules to cover
 //1.Data Types
 //2.Variables
@@ -317,6 +317,58 @@ int age = 20;
  4.for in loop
 
 
+//Modules to cover
+//1.Data Types
+//2.Variables
+//3.Operators/Operator Precedence
+//4.Conditional Statements
+//5.Loops
+//6.Functions
+//7.Lists
+//8.Maps
+//OOP(Object Oriented Programming)
+//9.Classes
+//10.Objects
+//11.Methods
+//12.Inheritance
+//13.Constructors
+
+Dart Operators
+1.Assignment Operator(=) != as Equality operator(==)
+2.Arithmetic Operators(+, -, *, /, %)
+3.Logical Operators(&&, ||, !, <, >, <=, >=)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -324,3 +376,56 @@ int age = 20;
 
 
  */
+void main() {
+  //Decision Statements in Dart
+  //1.simple - if statements
+
+  // String name = 'Jessy';
+  // if (name == 'Jessy') {
+  //   print('Hello, Jessy');
+  // }
+
+  //2.if else statements
+  // String name = 'Jessy';
+  // if (name == 'Jessy') {
+  //   print('Hello, Jessy');
+  // } else {
+  //   print('Hello, Stranger');
+  // }
+
+  //3.if else if statements / Nested if statements
+  // String name = 'Bervely';
+  // if (name == 'Jessy') {
+  //   print('Hello, Jessy');
+  // } else if (name == 'John') {
+  //   print('Hello, John');
+  // } else if (name == 'Esther') {
+  //   print('Hello, Esther');
+  // } else {
+  //   print('Hello, Stranger');
+  // }
+
+  //4.Switch statements/ Switch case statements
+  // String name = 'Esther';
+  // switch (name) {
+  //   case 'Jessy':
+  //     print('Hello, Jessy');
+  //     break;
+  //   case 'John':
+  //     print('Hello, John');
+  //     break;
+  //   case 'Esther':
+  //     print('Hello, Esther');
+  //     break;
+  //   default:
+  //     print('Hello, Stranger');
+  // }
+
+  // Simple Grading System
+  // Build a program that takes a number grade and outputs a letter grade.
+  // if the grade is above 85, A
+  // if the grade is between 70 and 85, B
+  // if the grade is between 55 and 70, C
+  // if the grade is between 40 and 55, D
+  // otherwise, F
+}
